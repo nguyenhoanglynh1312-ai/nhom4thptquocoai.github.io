@@ -1,41 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Website Du Lịch Hà Nội</title>
+    <title>Du lịch Hà Nội</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #f0f2f5;
+        }
+
+        header {
+            background: linear-gradient(90deg, #4facfe, #00f2fe);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            margin: 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #4facfe;
+        }
+
+        .container {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .card {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
 </head>
+
 <body>
 
-<!-- HEADER -->
-<h1>Du lịch Hà Nội</h1>
+<header>
+    <h1>Khám phá Hà Nội</h1>
+    <p>Văn hóa - Ẩm thực - Du lịch</p>
+</header>
 
-<!-- MENU -->
 <nav>
-    <a href="index.html">Trang chủ</a> |
-    <a href="about.html">Giới thiệu</a> |
+    <a href="index.html">Trang chủ</a>
+    <a href="about.html">Giới thiệu</a>
     <a href="contact.html">Liên hệ</a>
 </nav>
 
-<hr>
+<div class="container">
 
-<!-- NỘI DUNG -->
-<h2>Chào mừng bạn đến với Hà Nội</h2>
-<p>Hà Nội là thủ đô của Việt Nam với nhiều địa điểm du lịch nổi tiếng.</p>
+    <div class="card">
+        <h2>Hồ Gươm</h2>
+        <p>Biểu tượng nổi tiếng của Hà Nội.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Hoan_Kiem_Lake.jpg">
+    </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Hoan_Kiem_Lake.jpg" width="300">
+    <div class="card">
+        <h2>Ẩm thực Hà Nội</h2>
+        <p>Phở, bún chả, bánh mì là những món ăn đặc trưng.</p>
+    </div>
 
-<p>Hồ Gươm là một trong những địa điểm nổi bật nhất.</p>
+    <div class="card">
+        <h2>Video trải nghiệm</h2>
+        <iframe width="400" height="250" 
+        src="https://www.youtube.com/embed/2i6oM4Zt9xY">
+        </iframe>
+    </div>
 
-<!-- VIDEO -->
-<h3>Video giới thiệu</h3>
-<iframe width="400" height="250" 
-src="https://www.youtube.com/embed/2i6oM4Zt9xY">
-</iframe>
+</div>
 
-<hr>
-
-<!-- FOOTER -->
 <footer>
-<p>© 2026 - Nhóm 4 _ THPT Quốc Oai</p>
+    <p>Nhóm 4-12A4 -THPT QUỐC OAI</p>
 </footer>
 
 </body>
